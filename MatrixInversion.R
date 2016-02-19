@@ -61,9 +61,9 @@ cacheSolve <-function(x){
     inverse;
 }
 
-
 ##This function is added here with an intention to unit test
 ## the caching of the matrix inversion.
+
 testTheInverse <- function(testMatrix){
   
     temp <- makeCacheMatrix(testMatrix);
